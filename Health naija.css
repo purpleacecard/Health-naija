@@ -1,0 +1,179 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial;
+  background-color: black;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 10px 20px;
+}
+.header-name {
+  font-size: 20px;
+  font-weight: 800;
+  margin: 0px;
+  padding: 5px 20px;
+  border-bottom: 1px solid black;
+}
+.navigation-bar {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  min-height: 35px;
+}
+.nav-btn {
+  background-color: white;
+  color: black;
+  margin: 0px;
+  padding: 8px 20px;
+  border: 1px solid white;
+  transition: border 0.5s, background-color 0.15s, color 0.15s;
+}
+.nav-btn:hover {
+  border: 1px solid black;
+}
+.nav-btn:active {
+  background-color: rgb(90, 90, 90);
+  color: white;
+}
+.main-banner {
+  width: 100%;
+  max-height: 250px;
+  object-fit: cover;
+  object-position: center;
+  margin-bottom: -5px;
+}
+.main-body {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  font-size: 15px;
+  color: rgb(241, 241, 241);
+}
+.middle {
+  width: 55%;
+  max-width: 670px;
+}
+.top-part {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding: 0px 0px 20px;
+  border-bottom: 0.5px solid rgb(90, 90, 90);
+}
+.main-body-header {
+  font-size: 30px;
+  margin: 25px 0px;
+}
+.main-body-paragragh {
+  margin: 0px;
+  font-size: 15px;
+  text-align: justify;
+  word-spacing: -1px;
+  line-height: 20px;
+}
+.three-tabs {
+  display: flex;
+  margin: 20px 0px;
+}
+.tab {
+  padding: 10px 15px;
+  border: 0.5px solid rgb(90, 90, 90);
+  margin-right: -0.5px;
+}
+.last-tab {
+  padding: 10px 15px;
+  border: 0.5px solid rgb(90, 90, 90);
+  margin-left: -0.5px;
+}
+.available-spots-header {
+  letter-spacing: 0.2px;
+  margin: 5px 0px;
+}
+.book-now-button {
+  padding: 10px 30px;
+  background-color: rgb(213, 253, 153);
+  color: black;
+  border: none;
+  cursor: pointer;
+}
+.service-description-part {
+  display: flex;
+  flex-direction: column;
+}
+.service-description-header {
+  margin: 10px 0px;
+}
+.service-description-paragragh {
+  margin: 0px 0px 10px;
+}
+.image-div {
+  display: grid;
+  grid-template-columns: 20px 1fr 20px;
+}
+.image {
+  width: 100%;
+  max-height: 350px;
+  object-fit: cover;
+}
+.image-button {
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+table {
+  width: 100%;
+  border: 1px solid rgb(90, 90, 90);
+  border-collapse: collapse;
+}
+th,
+td {
+  border-bottom: 1px solid rgb(90, 90, 90);
+  text-align: start;
+  padding: 20px 15px;
+}
+td p {
+  margin: 0px;
+}
+.cancellation {
+  padding: 30px 0px;
+  border-bottom: 1px solid rgb(90, 90, 90);
+}
+.contact-details {
+  margin: 50px 0px;
+}
+.contact-paragragh {
+  margin: 5px 0px;
+}
+footer {
+  background-color: black;
+  color: white;
+  margin-bottom: 20px;
+}
+.footer-header-div {
+  padding: 20px 80px;
+  border-top: 3px solid plum;
+}
+.footer-header {
+  margin: 0px;
+}
+.low-footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
+}
+.footer-section {
+  padding: 20px 50px;
+  border: 1px solid yellowgreen;
+  border-left: none;
+}
+.footer-1-paragragh {
+  margin: 10px 0px;
+}
+.footer-2-paragragh {
+  margin: 10px 0px;
+  white-space: nowrap;
+}
